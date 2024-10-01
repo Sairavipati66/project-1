@@ -1,0 +1,101 @@
+.login-title {
+  text-align: center;
+  color: purple;
+  margin-top: 20px;
+  font-size: 2em;
+}
+
+.login-form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form {
+  background-image: url(png-transparent-person.png);
+  background-size: 100% 100%;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 1);
+  width: 300px;
+  transition: transform 0.3s; /* Smooth transition for form */
+}
+
+.login-form:hover {
+  transform: scale(1.02); /* Slightly enlarge on hover */
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  transition: color 0.3s; /* Smooth transition for label */
+}
+
+.input-label:hover {
+  color: #4facfe; /* Change color on hover */
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.input-field:hover {
+  border-color: #4facfe; /* Change border color on hover */
+  box-shadow: 0 0 5px rgba(79, 172, 254, 0.5); /* Subtle glow effect */
+}
+
+.password-input {
+  position: relative;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-label {
+  margin-left: 5px;
+}
+
+.button-group {
+  text-align: center;
+}
+
+.login-button {
+  background: #4facfe;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.login-button:hover {
+  background: #00f2fe; /* Change to brighter color */
+  transform: translateY(-2px); /* Lift effect on hover */
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
