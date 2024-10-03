@@ -2,6 +2,7 @@ import { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
+import "../CSS/UserSignUp.css"
 
 function UserSignUp() {
   const [name, setName] = useState("")

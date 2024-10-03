@@ -1,6 +1,7 @@
 
 import axios from "axios"
 import { useState } from "react"
+import "../CSS/CreateQuiz2.css"
 
 const CreateQuiz2 = (props) => {
     const {totalPages,perPage,dropDownValue,createQuizValue} = props

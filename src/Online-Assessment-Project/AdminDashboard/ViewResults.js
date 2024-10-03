@@ -3,6 +3,8 @@ import { useContext, useEffect, useState } from "react"
 import Context from "../Context/Context"
 import axios from "axios"
 import { useNavigate } from "react-router-dom";
+import "../CSS/ViewResults.css"
+
 
 const ViewResults = () => {
     const {globalUser} = useContext(Context);

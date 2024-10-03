@@ -2,6 +2,7 @@ import { useContext,useEffect} from "react"
 import axios from "axios"
 import Context from "../Context/Context"
 import { useNavigate,Link} from "react-router-dom"
+import "../CSS/AdminDashboard.css"
 
 function AdminDashboardFunction(){
     const {globalUser} = useContext(Context)

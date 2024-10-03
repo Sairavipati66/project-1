@@ -2,6 +2,8 @@ import { useContext, useState } from "react"
 import CreateQuiz2 from "./CreateQuiz2"
 import { useNavigate } from "react-router-dom"
 import Context from "../Context/Context"
+import "../CSS/CreateQuiz1.css"
+
 
 const CreateQuiz1= () => {
 

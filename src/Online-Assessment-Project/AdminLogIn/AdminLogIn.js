@@ -5,6 +5,7 @@ import axios from "axios";
 import Context from "../Context/Context";
 import { useNavigate } from "react-router-dom";
 import AdminDashboardFunction from "../AdminDashboard/AdminDashboard";
+import "../CSS/AdminLogin.css";
 function AdminLogIn() {
   const [adminData, setadminData] = useState([])
   const [errorBox, seterrorBox] = useState()

@@ -2,6 +2,7 @@ import { useState,useEffect, useContext } from "react"
 import axios from "axios"
 import Context from "../Context/Context"
 import { useNavigate } from "react-router-dom"
+import "../CSS/JsQuiz.css"
 
 const JsQuiz = () =>{
 
